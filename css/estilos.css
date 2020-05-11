@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/140/572/original/lowpoly-grey-gradient-vector.png
+    );
+    background-size: auto 200vh;
+    font-family: Malvie;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtittle,
+  .site-tittle {
+    color: #fffaf0;
+    text-align: center;
+    background: #808588;
+  }
+  
+  .site-subtittle {
+    font-style: Italic;
+  }
+  
+  .jobs {
+    color: #222021;
+    font-family: georgia;
+    font-weight: bolder;
+  }
+  
+  
+  
+  
+  
+  
+      
+     
