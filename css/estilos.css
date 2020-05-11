@@ -32,11 +32,20 @@ body{
   .site-tittle {
     color: #fffaf0;
     text-align: center;
+    background: #808588;
   }
   
   .site-subtittle {
     font-style: Italic;
   }
+  
+  .jobs {
+    color: #222021;
+    font-family: georgia;
+    font-weight: bolder;
+  }
+  
+  
   
   
   
