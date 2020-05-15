@@ -6,9 +6,9 @@
 }
 
 body{
-    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
-    );
-    background-size: 100vw 250vh;
+    background-image: url("../img/space.jpg"), url("../img/unnamed.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100vw 100vh;
     font-family: 'IBM Plex Mono', monospace;
     height: 100vh;
     font-size: 10px;
@@ -90,7 +90,7 @@ body{
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      blink-caret .75s, step-end infinite;
   }
   
 @keyframes typing {
@@ -99,7 +99,7 @@ body{
 }
 
   .site-tittle {
-    color: #46494c;
+    color: white;
     text-align: center;
   }
   
@@ -109,7 +109,7 @@ body{
 }
 
   .site-subtittle {
-    color: #4c5c68;
+    color: white;
     font-style: Italic;
     font-family: georgia;
     text-align: center;
@@ -117,10 +117,57 @@ body{
 
   .portfolio {
     padding: 2em;
-    height: 100vh
+    height: 100vh;
   }
-  
+
+  .sobre {
+    font-size: 1.5em;
+    padding: 2em;
+    height: 90vh;
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .sobre p {
+    color: black;
+    text-indent: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .sobre a {
+    color: black;
+    text-decoration: underline;
+    }
+
+  .sobre a:hover {
+    background-color: #46494c;
+    text-decoration: none;
+    color: #1985a1;
+    }
+
+  .sobre h2 {
+    color: #DCDCDD;
+    font-family: 'Courgette', cursive;
+    font-size: 4em;
+  }
+
+  .sobre .profile img {
+    clip-path: polygon(20% 0%, 0% 20%, 4% 51%, 0% 80%, 20% 100%, 52% 96%, 80% 100%, 100% 80%, 96% 50%, 100% 20%, 80% 0%, 50% 3%);
+  }
+
+  .sobre .profile {
+    float: right;
+    margin-left: 1.3em;
+  }
+
   .portfolio h2 {
+    color: #DCDCDD;
     font-family: 'Courgette', cursive;
     margin-bottom: 0.5em;
     font-size: 4em;
@@ -147,6 +194,7 @@ body{
   .img-portfolio {
     height: 300px;
     width: 480px;
+    margin-bottom: 1em;
     object-fit: cover;
     object-position: top;
     transition: transform 0.5s;
@@ -162,7 +210,9 @@ body{
 }
 
 .contato h2 {
+  color: #DCDCDD;
   font-family: 'Courgette', cursive;
+  margin-top: 1em;
   margin-bottom: 0.2em;
   font-size: 4em;
 }
