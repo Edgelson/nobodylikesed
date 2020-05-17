@@ -8,7 +8,7 @@
 body{
     background-image: url("../img/scenic-view-of-mountain-during-evening-2085998.jpg"), url("../img/unnamed.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: auto 100vh;
+    background-size: 100vw 100vh;
     font-family: 'IBM Plex Mono', monospace;
     height: 100vh;
     font-size: 10px;
