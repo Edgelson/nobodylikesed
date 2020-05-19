@@ -117,7 +117,7 @@ body{
   .sobre,
   .portfolio {
     padding: 2em;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .sobre {
@@ -196,7 +196,6 @@ body{
     width: 480px;
     margin-bottom: 1em;
     object-fit: cover;
-    object-position: top;
     transition: transform 0.5s;
   }
 
@@ -207,6 +206,10 @@ body{
 
 .contato .grid {
   text-align: center;
+}
+
+.contato {
+  position: absolute;
 }
 
 .contato h2 {
